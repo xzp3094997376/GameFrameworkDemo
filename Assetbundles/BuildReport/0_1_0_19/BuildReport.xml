@@ -1,0 +1,1226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <BuildReport>
+    <Summary>
+      <ProductName>Star Force</ProductName>
+      <CompanyName>Game Framework</CompanyName>
+      <GameIdentifier>unity.Game Framework.Star Force</GameIdentifier>
+      <GameFrameworkVersion>2021.05.31</GameFrameworkVersion>
+      <UnityVersion>2019.4.18f1</UnityVersion>
+      <ApplicableGameVersion>0.1.0</ApplicableGameVersion>
+      <InternalResourceVersion>19</InternalResourceVersion>
+      <Platforms>Windows</Platforms>
+      <AssetBundleCompression>LZ4</AssetBundleCompression>
+      <CompressionHelperTypeName>UnityGameFramework.Runtime.DefaultCompressionHelper</CompressionHelperTypeName>
+      <AdditionalCompressionSelected>True</AdditionalCompressionSelected>
+      <ForceRebuildAssetBundleSelected>False</ForceRebuildAssetBundleSelected>
+      <BuildEventHandlerTypeName>StarForce.Editor.StarForceBuildEventHandler</BuildEventHandlerTypeName>
+      <OutputDirectory>F:\UnityProject\GameFramework\StarForce\Assetbundles</OutputDirectory>
+      <BuildAssetBundleOptions>DeterministicAssetBundle, ChunkBasedCompression</BuildAssetBundleOptions>
+    </Summary>
+    <Resources Count="124">
+      <Resource Name="Configs/DefaultConfig" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="44c8db52241385c45bbb14a1718f17bf" Name="Assets/GameMain/Configs/DefaultConfig.txt" Length="162" HashCode="1970827408" />
+          <Asset Guid="7fd11dc5d29076d469d414dec2818f11" Name="Assets/GameMain/Configs/DefaultConfig.bytes" Length="45" HashCode="698598607" />
+        </Assets>
+        <Codes>
+          <Windows Length="1345" HashCode="-2014586504" CompressedLength="1127" CompressedHashCode="-93735797" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/Aircraft" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="4a17d2c656f5c6b44a31e3ee547a76b0" Name="Assets/GameMain/DataTables/Aircraft.bytes" Length="44" HashCode="700627166" />
+          <Asset Guid="64f3bb52c6a54854688fcc656af2b1c9" Name="Assets/GameMain/DataTables/Aircraft.txt" Length="666" HashCode="-2090882756" />
+        </Assets>
+        <Codes>
+          <Windows Length="1542" HashCode="-1564551615" CompressedLength="1299" CompressedHashCode="772629928" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/Armor" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="239366f83979ffa48a45dac2f0f1e8cb" Name="Assets/GameMain/DataTables/Armor.bytes" Length="7" HashCode="-947532496" />
+          <Asset Guid="b2cebe04343227945bab3729ca9a3493" Name="Assets/GameMain/DataTables/Armor.txt" Length="184" HashCode="-819325575" />
+        </Assets>
+        <Codes>
+          <Windows Length="1350" HashCode="1934251437" CompressedLength="1141" CompressedHashCode="-1130536918" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/Asteroid" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="ad56aae2bb0f2ce4a86711287e14e223" Name="Assets/GameMain/DataTables/Asteroid.txt" Length="548" HashCode="2096169771" />
+          <Asset Guid="e0792649e7774a24d8e7cceba0231c61" Name="Assets/GameMain/DataTables/Asteroid.bytes" Length="65" HashCode="-1041507408" />
+        </Assets>
+        <Codes>
+          <Windows Length="1531" HashCode="1896089811" CompressedLength="1295" CompressedHashCode="-1153876784" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/Entity" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="97d117308cf86924289e81e7e71dd5dd" Name="Assets/GameMain/DataTables/Entity.bytes" Length="230" HashCode="-1176981906" />
+          <Asset Guid="cfe53cf384344bd47a8680f8c5f97a7b" Name="Assets/GameMain/DataTables/Entity.txt" Length="848" HashCode="1017285111" />
+        </Assets>
+        <Codes>
+          <Windows Length="1677" HashCode="417582540" CompressedLength="1439" CompressedHashCode="-263402733" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/Music" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="315e8ed2db27c254cb3366ff0793cd90" Name="Assets/GameMain/DataTables/Music.txt" Length="296" HashCode="204126902" />
+          <Asset Guid="9b433f0bb7fef6f4085c316a0d88c307" Name="Assets/GameMain/DataTables/Music.bytes" Length="58" HashCode="660630803" />
+        </Assets>
+        <Codes>
+          <Windows Length="1426" HashCode="-3330636" CompressedLength="1207" CompressedHashCode="-161947818" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/Scene" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" Name="Assets/GameMain/DataTables/Scene.txt" Length="170" HashCode="-300337803" />
+          <Asset Guid="fdb5edd099d06b045af609ba3172400a" Name="Assets/GameMain/DataTables/Scene.bytes" Length="24" HashCode="1921937977" />
+        </Assets>
+        <Codes>
+          <Windows Length="1385" HashCode="1551626781" CompressedLength="1158" CompressedHashCode="-1368155520" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/Sound" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="372a8b1e52bedc64b9207b12d167afaa" Name="Assets/GameMain/DataTables/Sound.txt" Length="868" HashCode="-981921304" />
+          <Asset Guid="9c3faac13c8ced84a9f3018303b7bb98" Name="Assets/GameMain/DataTables/Sound.bytes" Length="167" HashCode="-1089466089" />
+        </Assets>
+        <Codes>
+          <Windows Length="1701" HashCode="349718688" CompressedLength="1468" CompressedHashCode="-1514074687" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/Test" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="e58a3080f125e6045b0ea57262ef0e20" Name="Assets/GameMain/DataTables/Test.bytes" Length="22" HashCode="2136070430" />
+          <Asset Guid="effdc720b79a8474899ffca0755130fc" Name="Assets/GameMain/DataTables/Test.txt" Length="155" HashCode="1087140871" />
+        </Assets>
+        <Codes>
+          <Windows Length="1375" HashCode="548717456" CompressedLength="1152" CompressedHashCode="-858593740" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/TestMusic" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="1b4de2546337344478e2d24cce3fa2c4" Name="Assets/GameMain/DataTables/TestMusic.bytes" Length="12" HashCode="-415152469" />
+          <Asset Guid="c3f52506ec59a264e8bdb8ae420b0d2e" Name="Assets/GameMain/DataTables/TestMusic.txt" Length="162" HashCode="-81495378" />
+        </Assets>
+        <Codes>
+          <Windows Length="1341" HashCode="-773565768" CompressedLength="1132" CompressedHashCode="1698607116" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/Thruster" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="4db6a299939bfe94893585eb387f577a" Name="Assets/GameMain/DataTables/Thruster.bytes" Length="8" HashCode="-338186446" />
+          <Asset Guid="9c3961f379234354e813d7b38146424d" Name="Assets/GameMain/DataTables/Thruster.txt" Length="144" HashCode="891006938" />
+        </Assets>
+        <Codes>
+          <Windows Length="1313" HashCode="-1579456847" CompressedLength="1112" CompressedHashCode="2141752981" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/UIForm" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="352da872791696c48af3b21132e3e3c3" Name="Assets/GameMain/DataTables/UIForm.txt" Length="628" HashCode="691786543" />
+          <Asset Guid="a33e23ae848110243820cda82120b105" Name="Assets/GameMain/DataTables/UIForm.bytes" Length="90" HashCode="-1923546927" />
+        </Assets>
+        <Codes>
+          <Windows Length="1579" HashCode="-286088709" CompressedLength="1361" CompressedHashCode="-1861157823" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/UISound" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="8e114ded6a865324588170636872943c" Name="Assets/GameMain/DataTables/UISound.bytes" Length="29" HashCode="-540465734" />
+          <Asset Guid="f2f97a713beae744181ba934f9c4113a" Name="Assets/GameMain/DataTables/UISound.txt" Length="334" HashCode="1201326981" />
+        </Assets>
+        <Codes>
+          <Windows Length="1469" HashCode="-979058126" CompressedLength="1249" CompressedHashCode="1830022097" />
+        </Codes>
+      </Resource>
+      <Resource Name="DataTables/Weapon" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="2">
+          <Asset Guid="8b1acacd22538f34cb85287a0781ea5e" Name="Assets/GameMain/DataTables/Weapon.bytes" Length="18" HashCode="1370616616" />
+          <Asset Guid="ab4774faf71b57a40a29a9e902403fe3" Name="Assets/GameMain/DataTables/Weapon.txt" Length="370" HashCode="1232484129" />
+        </Assets>
+        <Codes>
+          <Windows Length="1440" HashCode="2050853104" CompressedLength="1216" CompressedHashCode="364218208" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/Asteroid01" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="7d5f7699d6d1d48e485ac71126e12061" Name="Assets/GameMain/Entities/Asteroid01.prefab" Length="3685" HashCode="145243739">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Materials/prop_asteroid_01_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Meshes/prop_asteroid_01.FBX" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="3295" HashCode="-629844605" CompressedLength="2748" CompressedHashCode="1195526313" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/Asteroid02" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="9143e2b62ad50488482f9b73672fc331" Name="Assets/GameMain/Entities/Asteroid02.prefab" Length="3738" HashCode="-1321997834">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Materials/prop_asteroid_02_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Meshes/prop_asteroid_02.FBX" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="3327" HashCode="-1984474989" CompressedLength="2772" CompressedHashCode="278513351" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/Asteroid03" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="834bfaee90a9d4e04b1e8c1ca22cc88e" Name="Assets/GameMain/Entities/Asteroid03.prefab" Length="3722" HashCode="1954450097">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Materials/prop_asteroid_03_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Meshes/prop_asteroid_03.FBX" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="3332" HashCode="12144779" CompressedLength="2781" CompressedHashCode="726233005" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/AsteroidExplosion" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="a6d58f54ce5934781962a4f887e834f3" Name="Assets/GameMain/Entities/AsteroidExplosion.prefab" Length="458529" HashCode="-1133134356">
+            <DependencyAssets Count="4">
+              <DependencyAsset Name="Assets/GameMain/Materials/part_glow_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_shockwave_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_spark_large_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_spark_white_mat.mat" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="29051" HashCode="711185494" CompressedLength="14415" CompressedHashCode="-341980451" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/DefaultArmor" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="0992f89f84d762f478fd32f8225168b0" Name="Assets/GameMain/Entities/DefaultArmor.prefab" Length="1066" HashCode="-1671185219" />
+        </Assets>
+        <Codes>
+          <Windows Length="1689" HashCode="1142296423" CompressedLength="1385" CompressedHashCode="493432854" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/DefaultWeapon" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="abd1565e9e268f04cac3631d022b4ace" Name="Assets/GameMain/Entities/DefaultWeapon.prefab" Length="1067" HashCode="1305677349" />
+        </Assets>
+        <Codes>
+          <Windows Length="1687" HashCode="-2071925508" CompressedLength="1386" CompressedHashCode="1373460226" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/EnemyBolt" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="11e27c26ac87b40f0a62ec40d7261989" Name="Assets/GameMain/Entities/EnemyBolt.prefab" Length="3576" HashCode="389337819">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Materials/done_fx_bolt_cyan_mat.mat" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="3303" HashCode="-729242002" CompressedLength="2752" CompressedHashCode="-805607592" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/EnemyEngine" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="fedd25a3c60e7ae499fc6efab9ee180b" Name="Assets/GameMain/Entities/EnemyEngine.prefab" Length="34819" HashCode="-144248836">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Materials/fx_enemyShip_engines_mat.mat" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="27530" HashCode="262905545" CompressedLength="12969" CompressedHashCode="21064831" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/EnemyExplosion" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="160925a6fe2664f2a978566b819f0af0" Name="Assets/GameMain/Entities/EnemyExplosion.prefab" Length="688980" HashCode="66572348">
+            <DependencyAssets Count="4">
+              <DependencyAsset Name="Assets/GameMain/Materials/part_blast_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_shockwave_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_spark_blue_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_spark_large_mat.mat" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="29288" HashCode="169566377" CompressedLength="14617" CompressedHashCode="-281021877" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/EnemyShip" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="afc18fc39ade3744397c0c993b57be53" Name="Assets/GameMain/Entities/EnemyShip.prefab" Length="5973" HashCode="351775319">
+            <DependencyAssets Count="3">
+              <DependencyAsset Name="Assets/GameMain/Materials/vehicle_enemyShip_glow_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/vehicle_enemyShip_metal_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Meshes/vehicle_enemyShip.FBX" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="3571" HashCode="-241574302" CompressedLength="2998" CompressedHashCode="896374620" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/PlayerBolt" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="f4ec271e525e14ca9927a07e6a2e153d" Name="Assets/GameMain/Entities/PlayerBolt.prefab" Length="3577" HashCode="1980811664">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Materials/done_fx_bolt_orange_mat.mat" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="3306" HashCode="605829254" CompressedLength="2754" CompressedHashCode="-1341671850" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/PlayerEngine" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="8cf749fdfa5edc3478d16893efeaa0eb" Name="Assets/GameMain/Entities/PlayerEngine.prefab" Length="70679" HashCode="-597828326">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Materials/part_jet_core_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_jet_flare_mat.mat" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="27917" HashCode="-691137451" CompressedLength="13356" CompressedHashCode="2071166339" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/PlayerExplosion" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="3455fe69f7ddc4604b95bf9b0a1e88d7" Name="Assets/GameMain/Entities/PlayerExplosion.prefab" Length="805232" HashCode="-256494363">
+            <DependencyAssets Count="5">
+              <DependencyAsset Name="Assets/GameMain/Materials/part_blast_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_shockwave_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_spark_large_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_spark_white_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_spark_yellow_mat.mat" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="30192" HashCode="1816811569" CompressedLength="15424" CompressedHashCode="-1251926413" />
+        </Codes>
+      </Resource>
+      <Resource Name="Entities/PlayerShip" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="738bdf56857a65f479c367c7b62c4ad7" Name="Assets/GameMain/Entities/PlayerShip.prefab" Length="5971" HashCode="113120488">
+            <DependencyAssets Count="4">
+              <DependencyAsset Name="Assets/GameMain/Materials/vehicle_playerShip_glass_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/vehicle_playerShip_metal_mat.mat" />
+              <DependencyAsset Name="Assets/GameMain/Meshes/vehicle_playerShip.FBX" />
+              <DependencyAsset Name="Assets/GameMain/Meshes/vehicle_playerShip_collider.FBX" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="3613" HashCode="-1281477923" CompressedLength="3016" CompressedHashCode="-891465743" />
+        </Codes>
+      </Resource>
+      <Resource Name="Fonts/MainFont" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="77cbb7c5404c10242ab59953e0746314" Name="Assets/GameMain/Fonts/MainFont.ttf" Length="7070444" HashCode="-915020890" />
+        </Assets>
+        <Codes>
+          <Windows Length="4628094" HashCode="-517388204" CompressedLength="4052303" CompressedHashCode="-209686169" />
+        </Codes>
+      </Resource>
+      <Resource Name="Localization/ChineseSimplified/Dictionaries/Default" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="9be2e1e45f4edd74c8764538ad306b78" Name="Assets/GameMain/Localization/ChineseSimplified/Dictionaries/Default.xml" Length="1929" HashCode="906227867" />
+        </Assets>
+        <Codes>
+          <Windows Length="2113" HashCode="1083443915" CompressedLength="1831" CompressedHashCode="-1433153674" />
+        </Codes>
+      </Resource>
+      <Resource Name="Localization/ChineseTraditional/Dictionaries/Default" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="1053b0070685be347ab58587156842dc" Name="Assets/GameMain/Localization/ChineseTraditional/Dictionaries/Default.xml" Length="1930" HashCode="-1789351214" />
+        </Assets>
+        <Codes>
+          <Windows Length="2113" HashCode="220033689" CompressedLength="1835" CompressedHashCode="1011958698" />
+        </Codes>
+      </Resource>
+      <Resource Name="Localization/English/Dictionaries/Default" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="14869ac0d4433f04db1704e39d03412e" Name="Assets/GameMain/Localization/English/Dictionaries/Default.xml" Length="2000" HashCode="1146807728" />
+        </Assets>
+        <Codes>
+          <Windows Length="2158" HashCode="1657754799" CompressedLength="1797" CompressedHashCode="1765444861" />
+        </Codes>
+      </Resource>
+      <Resource Name="Localization/Korean/Dictionaries/Default" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="5dcd89912e222bf4c87f76db4044bc5e" Name="Assets/GameMain/Localization/Korean/Dictionaries/Default.xml" Length="2190" HashCode="-738335701" />
+        </Assets>
+        <Codes>
+          <Windows Length="2229" HashCode="733491214" CompressedLength="1919" CompressedHashCode="358692283" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/done_fx_bolt_cyan_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="63fe6ff9ab9e1433f8db4ebd940f2442" Name="Assets/GameMain/Materials/done_fx_bolt_cyan_mat.mat" Length="992" HashCode="44418843">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/fx_lazer_cyan_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="13041" HashCode="-2027093795" CompressedLength="8138" CompressedHashCode="-1044738366" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/done_fx_bolt_orange_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="8e27380ee68aa4a219b4db9018e7da31" Name="Assets/GameMain/Materials/done_fx_bolt_orange_mat.mat" Length="994" HashCode="-742494186">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/fx_lazer_orange_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="13045" HashCode="1454450976" CompressedLength="8138" CompressedHashCode="-747869997" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/done_tile_nebula_green_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="955000b4d1441470e8cbf94f483228b5" Name="Assets/GameMain/Materials/done_tile_nebula_green_dff.mat" Length="802" HashCode="-249574212">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/tile_nebula_green_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="12955" HashCode="561749919" CompressedLength="8094" CompressedHashCode="1737994252" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/fx_enemyShip_engines_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="1b4bad6cea5a94611b21f9757fe41444" Name="Assets/GameMain/Materials/fx_enemyShip_engines_mat.mat" Length="995" HashCode="-858598955">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/part_enginePulse_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="13050" HashCode="1758817437" CompressedLength="8142" CompressedHashCode="-811189804" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/part_blast_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="1cfe02ffd0b74854ea5bcd1a3c63ac3c" Name="Assets/GameMain/Materials/part_blast_mat.mat" Length="1567" HashCode="1074608829">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/part_flash_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="14081" HashCode="1500079738" CompressedLength="9092" CompressedHashCode="-1659376842" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/part_glow_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="0ed73dc47f4cb38489020d05e9f02c99" Name="Assets/GameMain/Materials/part_glow_mat.mat" Length="1007" HashCode="-2092324606" />
+        </Assets>
+        <Codes>
+          <Windows Length="23803" HashCode="-37593891" CompressedLength="17028" CompressedHashCode="-330792018" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/part_jet_core_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="c58c9afddbd36d14d837fa218d772996" Name="Assets/GameMain/Materials/part_jet_core_mat.mat" Length="988" HashCode="449428763">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/part_jet_core_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="13026" HashCode="1074652098" CompressedLength="8120" CompressedHashCode="294096731" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/part_jet_flare_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="a7b030cffa2dc44478c14e49a22771c2" Name="Assets/GameMain/Materials/part_jet_flare_mat.mat" Length="1023" HashCode="493507757">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/part_jet_flare_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="14080" HashCode="1898620984" CompressedLength="9089" CompressedHashCode="-2137906926" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/part_shockwave_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="1d46a17a95a444c08830612bc1146d1d" Name="Assets/GameMain/Materials/part_shockwave_mat.mat" Length="989" HashCode="-2052078889">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/part_shockwave_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="13074" HashCode="1170414063" CompressedLength="8192" CompressedHashCode="-2147219742" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/part_spark_blue_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="b0c7cf51d3fecb446ab93bf854419715" Name="Assets/GameMain/Materials/part_spark_blue_mat.mat" Length="1360" HashCode="-1162195640">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/part_spark_small_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="14095" HashCode="-2072807277" CompressedLength="9102" CompressedHashCode="-2021488568" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/part_spark_large_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="97b1f8b25cca2bc458cb9d6127c8d186" Name="Assets/GameMain/Materials/part_spark_large_mat.mat" Length="813" HashCode="951000370">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/part_spark_large_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="13011" HashCode="-764460058" CompressedLength="8131" CompressedHashCode="290831976" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/part_spark_white_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="0f995b3145e0e7247a42da6cef1dbf23" Name="Assets/GameMain/Materials/part_spark_white_mat.mat" Length="1157" HashCode="-1567153598">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/part_spark_small_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="13080" HashCode="-1994719324" CompressedLength="8191" CompressedHashCode="827014305" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/part_spark_yellow_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="a23eef5e20ff8cb46adf33491fc443fb" Name="Assets/GameMain/Materials/part_spark_yellow_mat.mat" Length="1180" HashCode="-2068716384">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/part_spark_small_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="14098" HashCode="23716939" CompressedLength="9109" CompressedHashCode="134798674" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/part_star_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="185f97f18bd603a478461ce9c08bd039" Name="Assets/GameMain/Materials/part_star_mat.mat" Length="806" HashCode="958182432">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/part_star_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="12995" HashCode="-1331793507" CompressedLength="8093" CompressedHashCode="-1230633997" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/prop_asteroid_01_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="583ff7026dac91849b7c7b2468ba456b" Name="Assets/GameMain/Materials/prop_asteroid_01_mat.mat" Length="2276" HashCode="1065605818">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/prop_asteroid_01_dff.tif" />
+              <DependencyAsset Name="Assets/GameMain/Textures/prop_asteroid_01_nrm.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="55712" HashCode="1021315759" CompressedLength="44808" CompressedHashCode="-1309661483" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/prop_asteroid_02_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="578af1667322bab45b652b79a40bb4fb" Name="Assets/GameMain/Materials/prop_asteroid_02_mat.mat" Length="3532" HashCode="-931504786">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/prop_asteroid_02_dff.tif" />
+              <DependencyAsset Name="Assets/GameMain/Textures/prop_asteroid_02_nrm.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="50388" HashCode="691734972" CompressedLength="40267" CompressedHashCode="-386967367" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/prop_asteroid_03_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="4c3865b2ac420cd46a9cde6ab468d016" Name="Assets/GameMain/Materials/prop_asteroid_03_mat.mat" Length="2275" HashCode="-932033164">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/prop_asteroid_03_dff.tif" />
+              <DependencyAsset Name="Assets/GameMain/Textures/prop_asteroid_03_nrm.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="55808" HashCode="-491250233" CompressedLength="44925" CompressedHashCode="1301710413" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/vehicle_enemyShip_glow_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="1e0350b97c61bfb4a91c62d756d01727" Name="Assets/GameMain/Materials/vehicle_enemyShip_glow_mat.mat" Length="3535" HashCode="-739831297">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/Textures/vehicle_enemyShip_purple_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="40825" HashCode="-77134805" CompressedLength="31862" CompressedHashCode="-678171051" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/vehicle_enemyShip_metal_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="c547624e174de984882f0a14b4bb32e1" Name="Assets/GameMain/Materials/vehicle_enemyShip_metal_mat.mat" Length="2500" HashCode="-1631047253">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/vehicle_enemyShip_nrm.tif" />
+              <DependencyAsset Name="Assets/GameMain/Textures/vehicle_enemyShip_purple_dff.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="55849" HashCode="-87763277" CompressedLength="44967" CompressedHashCode="756296115" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/vehicle_playerShip_glass_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="f36c72c738c55f741afcd674a0b1245f" Name="Assets/GameMain/Materials/vehicle_playerShip_glass_mat.mat" Length="3870" HashCode="-1134248331">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/vehicle_playerShip_orange_dff.tif" />
+              <DependencyAsset Name="Assets/GameMain/Textures/vehicle_playerShip_orange_nrm.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="50418" HashCode="-1219326993" CompressedLength="40295" CompressedHashCode="-891306213" />
+        </Codes>
+      </Resource>
+      <Resource Name="Materials/vehicle_playerShip_metal_mat" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="8940b037a9b441c4cbd3d2b446838424" Name="Assets/GameMain/Materials/vehicle_playerShip_metal_mat.mat" Length="2495" HashCode="1432370986">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Textures/vehicle_playerShip_orange_dff.tif" />
+              <DependencyAsset Name="Assets/GameMain/Textures/vehicle_playerShip_orange_nrm.tif" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="55840" HashCode="-394877953" CompressedLength="44960" CompressedHashCode="1583630206" />
+        </Codes>
+      </Resource>
+      <Resource Name="Meshes/prop_asteroid_01" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="baedbbad82997f445a8cb4da210404e0" Name="Assets/GameMain/Meshes/prop_asteroid_01.FBX" Length="46624" HashCode="1188617936" />
+        </Assets>
+        <Codes>
+          <Windows Length="65066" HashCode="-385037133" CompressedLength="53049" CompressedHashCode="-364231760" />
+        </Codes>
+      </Resource>
+      <Resource Name="Meshes/prop_asteroid_02" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="9afa958d6d8235941b9badb42aae4370" Name="Assets/GameMain/Meshes/prop_asteroid_02.FBX" Length="41168" HashCode="1343012427" />
+        </Assets>
+        <Codes>
+          <Windows Length="59962" HashCode="2019682814" CompressedLength="49164" CompressedHashCode="748605044" />
+        </Codes>
+      </Resource>
+      <Resource Name="Meshes/prop_asteroid_03" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="2768a9a4c8d289840918dcb879705893" Name="Assets/GameMain/Meshes/prop_asteroid_03.FBX" Length="52288" HashCode="-1722450471" />
+        </Assets>
+        <Codes>
+          <Windows Length="68961" HashCode="-947248175" CompressedLength="56426" CompressedHashCode="1676404183" />
+        </Codes>
+      </Resource>
+      <Resource Name="Meshes/vehicle_enemyShip" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="9ddab293e2a8af3499dac05f5fd6169c" Name="Assets/GameMain/Meshes/vehicle_enemyShip.FBX" Length="120512" HashCode="-379217913" />
+        </Assets>
+        <Codes>
+          <Windows Length="149467" HashCode="-484071321" CompressedLength="127976" CompressedHashCode="1512656251" />
+        </Codes>
+      </Resource>
+      <Resource Name="Meshes/vehicle_playerShip" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="d9808401c68af274a8edfbed3d1b53c7" Name="Assets/GameMain/Meshes/vehicle_playerShip.FBX" Length="104528" HashCode="-999938615" />
+        </Assets>
+        <Codes>
+          <Windows Length="126030" HashCode="425432315" CompressedLength="106902" CompressedHashCode="-330033382" />
+        </Codes>
+      </Resource>
+      <Resource Name="Meshes/vehicle_playerShip_collider" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="5282f20eba4d44213820e21af8481932" Name="Assets/GameMain/Meshes/vehicle_playerShip_collider.FBX" Length="19056" HashCode="1860635943" />
+        </Assets>
+        <Codes>
+          <Windows Length="42765" HashCode="-1861583566" CompressedLength="33324" CompressedHashCode="-365398797" />
+        </Codes>
+      </Resource>
+      <Resource Name="Music/music_about" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="093f8873cfe371d41b854ed9fb6bff69" Name="Assets/GameMain/Music/music_about.mp3" Length="5188156" HashCode="-1448743119" />
+        </Assets>
+        <Codes>
+          <Windows Length="1953523" HashCode="-947578617" CompressedLength="1944498" CompressedHashCode="-960138146" />
+        </Codes>
+      </Resource>
+      <Resource Name="Music/music_background" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="638ff8ae4a0d15047839cd265d3bc296" Name="Assets/GameMain/Music/music_background.mp3" Length="2336432" HashCode="588648626" />
+        </Assets>
+        <Codes>
+          <Windows Length="80014" HashCode="-1812825023" CompressedLength="79473" CompressedHashCode="-1596810718" />
+        </Codes>
+      </Resource>
+      <Resource Name="Music/music_menu" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="caa829ab2ffc71340a69253afdf58365" Name="Assets/GameMain/Music/music_menu.mp3" Length="1866065" HashCode="306016124" />
+        </Assets>
+        <Codes>
+          <Windows Length="625127" HashCode="1414603414" CompressedLength="622490" CompressedHashCode="148330636" />
+        </Codes>
+      </Resource>
+      <Resource Name="Music/music_song" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="6d2eda0656bb98f4b9a0e957c18830a7" Name="Assets/GameMain/Music/music_song.mp3" Length="6947235" HashCode="1952825027" />
+        </Assets>
+        <Codes>
+          <Windows Length="5839721" HashCode="-1017969985" CompressedLength="5812514" CompressedHashCode="-1033325715" />
+        </Codes>
+      </Resource>
+      <Resource Name="Scenes/Main" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="4473d81b14ddb0143addf0e6050d8491" Name="Assets/GameMain/Scenes/Main.unity" Length="273339" HashCode="-1573594066">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Materials/done_tile_nebula_green_dff.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_star_mat.mat" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="36281" HashCode="-1054415052" CompressedLength="20009" CompressedHashCode="1118891440" />
+        </Codes>
+      </Resource>
+      <Resource Name="Scenes/Menu" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="b031b4f2980561542a7f7ba41391edc3" Name="Assets/GameMain/Scenes/Menu.unity" Length="268911" HashCode="-294557281">
+            <DependencyAssets Count="2">
+              <DependencyAsset Name="Assets/GameMain/Materials/done_tile_nebula_green_dff.mat" />
+              <DependencyAsset Name="Assets/GameMain/Materials/part_star_mat.mat" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="35908" HashCode="1712064244" CompressedLength="19692" CompressedHashCode="-1358239418" />
+        </Codes>
+      </Resource>
+      <Resource Name="Scenes/Test" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="e8b2b467f88d51648b99d2e9a4de050d" Name="Assets/GameMain/Scenes/Test.unity" Length="7699" HashCode="1942685565" />
+        </Assets>
+        <Codes>
+          <Windows Length="21105" HashCode="-1331204844" CompressedLength="14844" CompressedHashCode="-77812783" />
+        </Codes>
+      </Resource>
+      <Resource Name="Scenes/Test_w" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="4bd764d958371004bb7e783387830fa5" Name="Assets/GameMain/Scenes/Test_w.unity" Length="7699" HashCode="1942685565" />
+        </Assets>
+        <Codes>
+          <Windows Length="21112" HashCode="1314762272" CompressedLength="14849" CompressedHashCode="1677211356" />
+        </Codes>
+      </Resource>
+      <Resource Name="Scenes/Wa" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="47bd1199fd9291741b15e6e31ccae091" Name="Assets/GameMain/Scenes/Wa.unity" Length="7699" HashCode="1942685565" />
+        </Assets>
+        <Codes>
+          <Windows Length="21099" HashCode="-244800697" CompressedLength="14841" CompressedHashCode="1971018733" />
+        </Codes>
+      </Resource>
+      <Resource Name="Sounds/explosion_asteroid" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="3dc7455402dfa462b89a4bbd513955e9" Name="Assets/GameMain/Sounds/explosion_asteroid.wav" Length="149216" HashCode="305962817" />
+        </Assets>
+        <Codes>
+          <Windows Length="8921" HashCode="-835948232" CompressedLength="8604" CompressedHashCode="-2035877864" />
+        </Codes>
+      </Resource>
+      <Resource Name="Sounds/explosion_enemy" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="72e76810224064300b7d32e8322a5d12" Name="Assets/GameMain/Sounds/explosion_enemy.wav" Length="174116" HashCode="-984961901" />
+        </Assets>
+        <Codes>
+          <Windows Length="5438" HashCode="1386765974" CompressedLength="5184" CompressedHashCode="1763019785" />
+        </Codes>
+      </Resource>
+      <Resource Name="Sounds/explosion_player" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="a019ae3af8e864616b85773c509f5285" Name="Assets/GameMain/Sounds/explosion_player.wav" Length="326536" HashCode="2022881377" />
+        </Assets>
+        <Codes>
+          <Windows Length="12714" HashCode="996707465" CompressedLength="12529" CompressedHashCode="-938674205" />
+        </Codes>
+      </Resource>
+      <Resource Name="Sounds/weapon_enemy" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="1be4472894949437694aead55c6da60f" Name="Assets/GameMain/Sounds/weapon_enemy.wav" Length="51004" HashCode="-1155291960" />
+        </Assets>
+        <Codes>
+          <Windows Length="3696" HashCode="811736365" CompressedLength="3491" CompressedHashCode="963381591" />
+        </Codes>
+      </Resource>
+      <Resource Name="Sounds/weapon_player" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="bf75b984df8a84987bcf3a8bf6e2862d" Name="Assets/GameMain/Sounds/weapon_player.wav" Length="65792" HashCode="1405407806" />
+        </Assets>
+        <Codes>
+          <Windows Length="4262" HashCode="-575792984" CompressedLength="4066" CompressedHashCode="-1561043686" />
+        </Codes>
+      </Resource>
+      <Resource Name="Test/Prefab/Cube" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="b60b5c8f70c8934408b55fda9c7917a3" Name="Assets/GameMain/Test/Prefab/Cube.prefab" Length="2708" HashCode="923422931" />
+        </Assets>
+        <Codes>
+          <Windows Length="39017" HashCode="5963035" CompressedLength="30335" CompressedHashCode="-472375678" />
+        </Codes>
+      </Resource>
+      <Resource Name="Test/Prefab/Sphere" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="419b28a993bb89c429e3281562b4c5d8" Name="Assets/GameMain/Test/Prefab/Sphere.prefab" Length="2684" HashCode="-861884618" />
+        </Assets>
+        <Codes>
+          <Windows Length="38972" HashCode="515033488" CompressedLength="30336" CompressedHashCode="1800390359" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/fx_lazer_cyan_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="6e3730451fa077346abd4ac642ea71d8" Name="Assets/GameMain/Textures/fx_lazer_cyan_dff.tif" Length="31592" HashCode="-1831304548" />
+        </Assets>
+        <Codes>
+          <Windows Length="5535" HashCode="422007859" CompressedLength="4594" CompressedHashCode="-1998091754" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/fx_lazer_orange_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="fd3cbf51780694849b9b019b36a3938e" Name="Assets/GameMain/Textures/fx_lazer_orange_dff.tif" Length="31812" HashCode="-1367320896" />
+        </Assets>
+        <Codes>
+          <Windows Length="4998" HashCode="-1447801016" CompressedLength="4112" CompressedHashCode="1183336412" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/part_enginePulse_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="eabb37cb6d738b443b398b701a64cd88" Name="Assets/GameMain/Textures/part_enginePulse_dff.tif" Length="34544" HashCode="-1021196410" />
+        </Assets>
+        <Codes>
+          <Windows Length="3632" HashCode="-536380612" CompressedLength="2993" CompressedHashCode="24502374" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/part_flash_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="3e504a46a8fcec34db3c4776530c6eb2" Name="Assets/GameMain/Textures/part_flash_dff.tif" Length="41228" HashCode="-1101222391" />
+        </Assets>
+        <Codes>
+          <Windows Length="9435" HashCode="1635547693" CompressedLength="8210" CompressedHashCode="-1767535702" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/part_jet_core_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="0963e6c65b2b1f74d9f455e21901e2dc" Name="Assets/GameMain/Textures/part_jet_core_dff.tif" Length="28084" HashCode="1623997199" />
+        </Assets>
+        <Codes>
+          <Windows Length="3709" HashCode="1382051025" CompressedLength="3143" CompressedHashCode="-1108794421" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/part_jet_flare_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="2cb5eef4d7d7bf6459dd13a3f8d90246" Name="Assets/GameMain/Textures/part_jet_flare_dff.tif" Length="32524" HashCode="669524243" />
+        </Assets>
+        <Codes>
+          <Windows Length="6147" HashCode="-1881237754" CompressedLength="5380" CompressedHashCode="1313719515" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/part_shockwave_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="04dbc0581071c254ea6564b2ff06ff9b" Name="Assets/GameMain/Textures/part_shockwave_dff.tif" Length="29920" HashCode="714741080" />
+        </Assets>
+        <Codes>
+          <Windows Length="6151" HashCode="-847618790" CompressedLength="5421" CompressedHashCode="-687610831" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/part_spark_large_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="7e91cd9bad7babf4b975882a4b7453cb" Name="Assets/GameMain/Textures/part_spark_large_dff.tif" Length="36684" HashCode="-899107547" />
+        </Assets>
+        <Codes>
+          <Windows Length="8543" HashCode="-1858323320" CompressedLength="7527" CompressedHashCode="1052340796" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/part_spark_small_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="1478894bc9a1ed241b05b0862a7b8bce" Name="Assets/GameMain/Textures/part_spark_small_dff.tif" Length="23444" HashCode="259058137" />
+        </Assets>
+        <Codes>
+          <Windows Length="6278" HashCode="708691861" CompressedLength="5182" CompressedHashCode="-277677022" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/part_star_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="1c89236d45255234ebd1d39657ff7e02" Name="Assets/GameMain/Textures/part_star_dff.tif" Length="27984" HashCode="355466149" />
+        </Assets>
+        <Codes>
+          <Windows Length="6273" HashCode="1342823630" CompressedLength="5409" CompressedHashCode="773782333" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/prop_asteroid_01_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="ae6a7f967521769458b0913fa39caaf4" Name="Assets/GameMain/Textures/prop_asteroid_01_dff.tif" Length="214996" HashCode="43590910" />
+        </Assets>
+        <Codes>
+          <Windows Length="66603" HashCode="-548791508" CompressedLength="65009" CompressedHashCode="671125273" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/prop_asteroid_01_nrm" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="f6db5bbdfe0e9894798706814cd6b336" Name="Assets/GameMain/Textures/prop_asteroid_01_nrm.tif" Length="144408" HashCode="-45291197" />
+        </Assets>
+        <Codes>
+          <Windows Length="66467" HashCode="-1732459478" CompressedLength="64740" CompressedHashCode="2121462240" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/prop_asteroid_02_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="ba157ba55f72c424a9e88f3c029997c4" Name="Assets/GameMain/Textures/prop_asteroid_02_dff.tif" Length="212292" HashCode="565654828" />
+        </Assets>
+        <Codes>
+          <Windows Length="62927" HashCode="1786171952" CompressedLength="61569" CompressedHashCode="-1405365704" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/prop_asteroid_02_nrm" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="6d9b42ac01f24bf4d98923573f103575" Name="Assets/GameMain/Textures/prop_asteroid_02_nrm.tif" Length="131344" HashCode="-192446338" />
+        </Assets>
+        <Codes>
+          <Windows Length="62103" HashCode="809139320" CompressedLength="60412" CompressedHashCode="-591883348" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/prop_asteroid_03_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="836be25be3e1e8c41ae5545bc8a9a4d7" Name="Assets/GameMain/Textures/prop_asteroid_03_dff.tif" Length="188368" HashCode="-622630330" />
+        </Assets>
+        <Codes>
+          <Windows Length="51438" HashCode="466344141" CompressedLength="50400" CompressedHashCode="955722392" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/prop_asteroid_03_nrm" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="7eae0d2701845a54aa570b07c55dab44" Name="Assets/GameMain/Textures/prop_asteroid_03_nrm.tif" Length="113880" HashCode="-1723421358" />
+        </Assets>
+        <Codes>
+          <Windows Length="50892" HashCode="211225952" CompressedLength="49211" CompressedHashCode="1507638420" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/tile_nebula_green_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="71646ebaae78d43aeb8b53cacdb69671" Name="Assets/GameMain/Textures/tile_nebula_green_dff.tif" Length="9705884" HashCode="-1662044067" />
+        </Assets>
+        <Codes>
+          <Windows Length="1077621" HashCode="-1607736384" CompressedLength="976194" CompressedHashCode="1362998606" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/vehicle_enemyShip_nrm" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="6e023ca4283b3a7469cd61d24c83048c" Name="Assets/GameMain/Textures/vehicle_enemyShip_nrm.tif" Length="356436" HashCode="899098033" />
+        </Assets>
+        <Codes>
+          <Windows Length="246952" HashCode="825840491" CompressedLength="236674" CompressedHashCode="1392080436" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/vehicle_enemyShip_purple_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="6e5d026bf0652ed4380f6a66f4aa26c5" Name="Assets/GameMain/Textures/vehicle_enemyShip_purple_dff.tif" Length="672204" HashCode="-564831858" />
+        </Assets>
+        <Codes>
+          <Windows Length="284328" HashCode="-708386277" CompressedLength="278713" CompressedHashCode="529369920" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/vehicle_playerShip_orange_dff" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="4f688097e85071841a2c3ba165000c20" Name="Assets/GameMain/Textures/vehicle_playerShip_orange_dff.tif" Length="564764" HashCode="-2018611845" />
+        </Assets>
+        <Codes>
+          <Windows Length="255066" HashCode="-1340057171" CompressedLength="247952" CompressedHashCode="-407943880" />
+        </Codes>
+      </Resource>
+      <Resource Name="Textures/vehicle_playerShip_orange_nrm" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="6db0c8354d868834abf29840037591b1" Name="Assets/GameMain/Textures/vehicle_playerShip_orange_nrm.tif" Length="312180" HashCode="-1788428530" />
+        </Assets>
+        <Codes>
+          <Windows Length="229431" HashCode="115383236" CompressedLength="221380" CompressedHashCode="-533373394" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UIForms/AboutForm" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="3aa539b1e46111d4299a83c73ebe762c" Name="Assets/GameMain/UI/UIForms/AboutForm.prefab" Length="22157" HashCode="-1477184826">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Logos/unity-logo.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="6866" HashCode="1159988111" CompressedLength="5728" CompressedHashCode="-688509627" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UIForms/DialogForm" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="04d7dde7615d71b4db1a0c8d67a62e95" Name="Assets/GameMain/UI/UIForms/DialogForm.prefab" Length="58986" HashCode="1762080127">
+            <DependencyAssets Count="4">
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/background.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/button-outline.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/dialog-background.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/dialog-title-background.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="8443" HashCode="812778718" CompressedLength="7109" CompressedHashCode="2033238741" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UIForms/MenuForm" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="09966b19e546cc94aa84d0743cb2a83d" Name="Assets/GameMain/UI/UIForms/MenuForm.prefab" Length="38310" HashCode="-1016174008">
+            <DependencyAssets Count="1">
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/button-outline.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="7023" HashCode="1101990816" CompressedLength="5866" CompressedHashCode="-166162502" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UIForms/SettingForm" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="bbfd75fe6fe00e1448fe988173ede7f9" Name="Assets/GameMain/UI/UIForms/SettingForm.prefab" Length="154128" HashCode="-2049289789">
+            <DependencyAssets Count="15">
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/background.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/box.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/button-outline.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/checked.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/circle.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/dialog-background.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/dialog-title-background.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/info.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/line.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/progressbar.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/progressbar-background.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Common/progress-conner.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Icons/music.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Icons/sound.png" />
+              <DependencyAsset Name="Assets/GameMain/UI/UISprites/Icons/world.png" />
+            </DependencyAssets>
+          </Asset>
+        </Assets>
+        <Codes>
+          <Windows Length="16628" HashCode="1919974740" CompressedLength="14298" CompressedHashCode="-1265400801" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISounds/click" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="c7d1e11dd37634b48a9dd4012b8e4306" Name="Assets/GameMain/UI/UISounds/click.wav" Length="41568" HashCode="-1547829698" />
+        </Assets>
+        <Codes>
+          <Windows Length="2214" HashCode="-641575399" CompressedLength="1890" CompressedHashCode="-1694347950" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISounds/select" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="e830964cdb85ff3429bca484c16bab44" Name="Assets/GameMain/UI/UISounds/select.wav" Length="41568" HashCode="-1920478215" />
+        </Assets>
+        <Codes>
+          <Windows Length="1935" HashCode="1937272097" CompressedLength="1637" CompressedHashCode="-44066245" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/background" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="cadd0764941c8b646ae79b51d0ea8285" Name="Assets/GameMain/UI/UISprites/Common/background.png" Length="5175294" HashCode="1806783389" />
+        </Assets>
+        <Codes>
+          <Windows Length="86328" HashCode="1756533630" CompressedLength="54040" CompressedHashCode="1905302249" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/box" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="f2f4df0b7211e4c42a5638273525d8ee" Name="Assets/GameMain/UI/UISprites/Common/box.png" Length="1058" HashCode="-2109500730" />
+        </Assets>
+        <Codes>
+          <Windows Length="4132" HashCode="-1241860951" CompressedLength="3301" CompressedHashCode="-822008848" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/button-filled" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="9f847ec5e66e03e4ead1d3c5f7b510e8" Name="Assets/GameMain/UI/UISprites/Common/button-filled.png" Length="1467" HashCode="1095020050" />
+        </Assets>
+        <Codes>
+          <Windows Length="4317" HashCode="921196054" CompressedLength="3370" CompressedHashCode="-528023186" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/button-outline" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="a8c07bbe04fdaf04b80e27f651a8edd6" Name="Assets/GameMain/UI/UISprites/Common/button-outline.png" Length="1683" HashCode="-837309841" />
+        </Assets>
+        <Codes>
+          <Windows Length="4522" HashCode="236195255" CompressedLength="3542" CompressedHashCode="1556469680" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/checked" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="3f54fcfdac53aec42ae18a6a1c6d8cb1" Name="Assets/GameMain/UI/UISprites/Common/checked.png" Length="15921" HashCode="-1098762055" />
+        </Assets>
+        <Codes>
+          <Windows Length="4554" HashCode="180879056" CompressedLength="3660" CompressedHashCode="1721953659" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/circle" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="24ca310f92a6796408f1db7647ec4e55" Name="Assets/GameMain/UI/UISprites/Common/circle.png" Length="1365" HashCode="1330959776" />
+        </Assets>
+        <Codes>
+          <Windows Length="4314" HashCode="-2073462176" CompressedLength="3444" CompressedHashCode="215768835" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/circle-filled" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="56b8df63bbad60749a69e38bc687fadf" Name="Assets/GameMain/UI/UISprites/Common/circle-filled.png" Length="16998" HashCode="964408779" />
+        </Assets>
+        <Codes>
+          <Windows Length="18891" HashCode="735073923" CompressedLength="11444" CompressedHashCode="1258608636" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/circle-outline" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="3be3fac3611f4584695662c4889f722d" Name="Assets/GameMain/UI/UISprites/Common/circle-outline.png" Length="20881" HashCode="-260484534" />
+        </Assets>
+        <Codes>
+          <Windows Length="24606" HashCode="-957034980" CompressedLength="16543" CompressedHashCode="1909984025" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/dialog-background" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="ab45c3f613f388d43bbf43ec05eb92e2" Name="Assets/GameMain/UI/UISprites/Common/dialog-background.png" Length="7706" HashCode="1348455424" />
+        </Assets>
+        <Codes>
+          <Windows Length="6725" HashCode="1986156865" CompressedLength="3320" CompressedHashCode="-433328839" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/dialog-title-background" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="0a65a68c01a76ea4b8b574827a6467aa" Name="Assets/GameMain/UI/UISprites/Common/dialog-title-background.png" Length="1614" HashCode="-248782138" />
+        </Assets>
+        <Codes>
+          <Windows Length="5479" HashCode="585417797" CompressedLength="3321" CompressedHashCode="-1912632400" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/info" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="0179316b5fc7c2946a67c5877c02fc30" Name="Assets/GameMain/UI/UISprites/Common/info.png" Length="1869" HashCode="1439065304" />
+        </Assets>
+        <Codes>
+          <Windows Length="4664" HashCode="-2056893675" CompressedLength="3750" CompressedHashCode="306914022" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/line" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="6cbc2c323b77f804fb958fa4eca33998" Name="Assets/GameMain/UI/UISprites/Common/line.png" Length="797" HashCode="1722275133" />
+        </Assets>
+        <Codes>
+          <Windows Length="3933" HashCode="-2027858742" CompressedLength="3102" CompressedHashCode="109032505" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/progress-conner" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="236433a27ce40a7429b87d14d8fa3035" Name="Assets/GameMain/UI/UISprites/Common/progress-conner.png" Length="576" HashCode="-1226923544" />
+        </Assets>
+        <Codes>
+          <Windows Length="4027" HashCode="1320585717" CompressedLength="3191" CompressedHashCode="-1541743498" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/progressbar" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="e82837c9099f69a48b48fc44eb8d119d" Name="Assets/GameMain/UI/UISprites/Common/progressbar.png" Length="24724" HashCode="706154886" />
+        </Assets>
+        <Codes>
+          <Windows Length="5313" HashCode="-1268653490" CompressedLength="4348" CompressedHashCode="1865619079" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/progressbar-background" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="156d241f796508c4da4fc354a7fbf5a8" Name="Assets/GameMain/UI/UISprites/Common/progressbar-background.png" Length="784" HashCode="-1146856258" />
+        </Assets>
+        <Codes>
+          <Windows Length="4091" HashCode="-1945994814" CompressedLength="3246" CompressedHashCode="7057377" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/round-button-filled" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="e85864330b68dde498dcb6e8711815d3" Name="Assets/GameMain/UI/UISprites/Common/round-button-filled.png" Length="2690" HashCode="-105002164" />
+        </Assets>
+        <Codes>
+          <Windows Length="5607" HashCode="985335012" CompressedLength="4327" CompressedHashCode="-1394103134" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Common/round-button-outline" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="62af9e5c8f39cfa49af9e10ccf42f1da" Name="Assets/GameMain/UI/UISprites/Common/round-button-outline.png" Length="3345" HashCode="451796798" />
+        </Assets>
+        <Codes>
+          <Windows Length="7059" HashCode="1337635319" CompressedLength="5602" CompressedHashCode="-301346654" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Icons/music" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="f438a72a91e1c3c4a9ced40888ffec96" Name="Assets/GameMain/UI/UISprites/Icons/music.png" Length="16152" HashCode="-1208903891" />
+        </Assets>
+        <Codes>
+          <Windows Length="4819" HashCode="-1840515811" CompressedLength="3825" CompressedHashCode="1297237351" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Icons/sound" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="e5ca26c53b6ab8a46b52817008d7c7fa" Name="Assets/GameMain/UI/UISprites/Icons/sound.png" Length="16337" HashCode="-2031218235" />
+        </Assets>
+        <Codes>
+          <Windows Length="5068" HashCode="-1938611682" CompressedLength="4046" CompressedHashCode="-727247411" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Icons/world" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="db58965402f12ed47b4dad61a9e48c9d" Name="Assets/GameMain/UI/UISprites/Icons/world.png" Length="18113" HashCode="220145781" />
+        </Assets>
+        <Codes>
+          <Windows Length="5425" HashCode="-216704821" CompressedLength="4371" CompressedHashCode="-208034839" />
+        </Codes>
+      </Resource>
+      <Resource Name="UI/UISprites/Logos/unity-logo" Extension="dat" LoadType="0" Packed="False">
+        <Assets Count="1">
+          <Asset Guid="7f5aee8da226edf4991598327cb32ce0" Name="Assets/GameMain/UI/UISprites/Logos/unity-logo.png" Length="39531" HashCode="1403969223" />
+        </Assets>
+        <Codes>
+          <Windows Length="16298" HashCode="-409924226" CompressedLength="13205" CompressedHashCode="-2057933864" />
+        </Codes>
+      </Resource>
+    </Resources>
+  </BuildReport>
+</UnityGameFramework>

@@ -23,6 +23,16 @@ public class Test : MonoBehaviour
         {
             PlayMusic();
         }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            LoadScene();
+        }
+
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            LoadUI();
+        }
     }
 
     [ContextMenu("Do Something")]
@@ -51,6 +61,14 @@ public class Test : MonoBehaviour
 
     void LoadScene()
     {
-        GameEntry.Scene.LoadScene(AssetUtility.GetSceneAsset(""),Constant.AssetPriority.SceneAsset);
+        GameEntry.Scene.LoadScene(AssetUtility.GetSceneAsset("Test_w"),Constant.AssetPriority.SceneAsset);
+    }
+
+    /// <summary>
+    /// 测试UI 
+    /// </summary>
+    void LoadUI()
+    {
+        GameEntry.UI.OpenUIForm(UIFormId.TestUIForm, this);
     }
 }

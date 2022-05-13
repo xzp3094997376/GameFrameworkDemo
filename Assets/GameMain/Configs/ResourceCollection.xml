@@ -69,6 +69,8 @@
       <Resource Name="Scenes/Main" LoadType="0" Packed="False" />
       <Resource Name="Scenes/Menu" LoadType="0" Packed="False" />
       <Resource Name="Scenes/Test" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/Test_w" LoadType="0" Packed="False" />
+      <Resource Name="Scenes/Wa" LoadType="0" Packed="False" />
       <Resource Name="Sounds/explosion_asteroid" LoadType="0" Packed="False" />
       <Resource Name="Sounds/explosion_enemy" LoadType="0" Packed="False" />
       <Resource Name="Sounds/explosion_player" LoadType="0" Packed="False" />
@@ -101,6 +103,7 @@
       <Resource Name="UI/UIForms/DialogForm" LoadType="0" Packed="False" />
       <Resource Name="UI/UIForms/MenuForm" LoadType="0" Packed="False" />
       <Resource Name="UI/UIForms/SettingForm" LoadType="0" Packed="False" />
+      <Resource Name="UI/UIForms/TestUIForm" LoadType="0" Packed="False" />
       <Resource Name="UI/UISounds/click" LoadType="0" Packed="False" />
       <Resource Name="UI/UISounds/select" LoadType="0" Packed="False" />
       <Resource Name="UI/UISprites/Common/background" LoadType="0" Packed="False" />
@@ -167,7 +170,9 @@
       <Asset Guid="419b28a993bb89c429e3281562b4c5d8" ResourceName="Test/Prefab/Sphere" />
       <Asset Guid="4473d81b14ddb0143addf0e6050d8491" ResourceName="Scenes/Main" />
       <Asset Guid="44c8db52241385c45bbb14a1718f17bf" ResourceName="Configs/DefaultConfig" />
+      <Asset Guid="47bd1199fd9291741b15e6e31ccae091" ResourceName="Scenes/Wa" />
       <Asset Guid="4a17d2c656f5c6b44a31e3ee547a76b0" ResourceName="DataTables/Aircraft" />
+      <Asset Guid="4bd764d958371004bb7e783387830fa5" ResourceName="Scenes/Test_w" />
       <Asset Guid="4c3865b2ac420cd46a9cde6ab468d016" ResourceName="Materials/prop_asteroid_03_mat" />
       <Asset Guid="4db6a299939bfe94893585eb387f577a" ResourceName="DataTables/Thruster" />
       <Asset Guid="4f688097e85071841a2c3ba165000c20" ResourceName="Textures/vehicle_playerShip_orange_dff" />
@@ -191,6 +196,7 @@
       <Asset Guid="72e76810224064300b7d32e8322a5d12" ResourceName="Sounds/explosion_enemy" />
       <Asset Guid="738bdf56857a65f479c367c7b62c4ad7" ResourceName="Entities/PlayerShip" />
       <Asset Guid="77cbb7c5404c10242ab59953e0746314" ResourceName="Fonts/MainFont" />
+      <Asset Guid="7bc2362877e84774b807006ac3dd4859" ResourceName="UI/UIForms/TestUIForm" />
       <Asset Guid="7d5f7699d6d1d48e485ac71126e12061" ResourceName="Entities/Asteroid01" />
       <Asset Guid="7e91cd9bad7babf4b975882a4b7453cb" ResourceName="Textures/part_spark_large_dff" />
       <Asset Guid="7eae0d2701845a54aa570b07c55dab44" ResourceName="Textures/prop_asteroid_03_nrm" />

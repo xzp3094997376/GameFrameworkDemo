@@ -33,5 +33,10 @@ namespace StarForce
         /// 关于。
         /// </summary>
         AboutForm = 102,
+        
+        /// <summary>
+        /// 测试UI
+        /// </summary>
+        TestUIForm = 103,
     }
 }
