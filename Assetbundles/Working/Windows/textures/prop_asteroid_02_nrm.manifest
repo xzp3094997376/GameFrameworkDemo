@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2334400268
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 97003a85528b2060090d3f608f52de4e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Textures/prop_asteroid_02_nrm.tif
+Dependencies: []

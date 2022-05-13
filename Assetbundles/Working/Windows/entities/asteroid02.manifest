@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 4144703375
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e58e009040f35d92310890636708ec73
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6182bffc3b1bc9a72e00eb77167a05b9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Entities/Asteroid02.prefab
+Dependencies:
+- F:/UnityProject/GameFramework/StarForce/Assetbundles/Working/Windows/materials/prop_asteroid_02_mat
+- F:/UnityProject/GameFramework/StarForce/Assetbundles/Working/Windows/meshes/prop_asteroid_02

@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 2563882550
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b59fe883f74294d20ec9e4721b4fd860
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 494d4b7e7a08f64811e55cdc3c1fc37d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Entities/PlayerShip.prefab
+Dependencies:
+- F:/UnityProject/GameFramework/StarForce/Assetbundles/Working/Windows/materials/vehicle_playership_glass_mat
+- F:/UnityProject/GameFramework/StarForce/Assetbundles/Working/Windows/materials/vehicle_playership_metal_mat
+- F:/UnityProject/GameFramework/StarForce/Assetbundles/Working/Windows/meshes/vehicle_playership
+- F:/UnityProject/GameFramework/StarForce/Assetbundles/Working/Windows/meshes/vehicle_playership_collider

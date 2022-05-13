@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 845048628
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 200f9a7154f2c596e206d558e27e6a1b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Music/music_menu.mp3
+Dependencies: []

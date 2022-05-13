@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4037511031
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e79ad163a9c941f4cb7d51dae805a4cd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Textures/vehicle_enemyShip_purple_dff.tif
+Dependencies: []

@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3447420618
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b2749ca06567485c939d89e30567ecd7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Textures/part_spark_large_dff.tif
+Dependencies: []

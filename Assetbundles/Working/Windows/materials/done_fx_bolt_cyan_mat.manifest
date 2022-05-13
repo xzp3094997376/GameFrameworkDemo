@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3915142548
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7496b60554bb91bff35d5e079265c590
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22357172b8cea85847937e8f62d0c077
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Materials/done_fx_bolt_cyan_mat.mat
+Dependencies:
+- F:/UnityProject/GameFramework/StarForce/Assetbundles/Working/Windows/textures/fx_lazer_cyan_dff

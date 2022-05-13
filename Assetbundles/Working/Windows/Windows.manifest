@@ -1,0 +1,446 @@
+ManifestFileVersion: 0
+CRC: 1089781339
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: configs/defaultconfig
+      Dependencies: {}
+    Info_1:
+      Name: datatables/aircraft
+      Dependencies: {}
+    Info_2:
+      Name: datatables/armor
+      Dependencies: {}
+    Info_3:
+      Name: datatables/asteroid
+      Dependencies: {}
+    Info_4:
+      Name: datatables/entity
+      Dependencies: {}
+    Info_5:
+      Name: datatables/music
+      Dependencies: {}
+    Info_6:
+      Name: datatables/scene
+      Dependencies: {}
+    Info_7:
+      Name: datatables/sound
+      Dependencies: {}
+    Info_8:
+      Name: datatables/test
+      Dependencies: {}
+    Info_9:
+      Name: datatables/thruster
+      Dependencies: {}
+    Info_10:
+      Name: datatables/uiform
+      Dependencies: {}
+    Info_11:
+      Name: datatables/uisound
+      Dependencies: {}
+    Info_12:
+      Name: datatables/weapon
+      Dependencies: {}
+    Info_13:
+      Name: entities/asteroid01
+      Dependencies:
+        Dependency_0: materials/prop_asteroid_01_mat
+        Dependency_1: meshes/prop_asteroid_01
+    Info_14:
+      Name: entities/asteroid02
+      Dependencies:
+        Dependency_0: materials/prop_asteroid_02_mat
+        Dependency_1: meshes/prop_asteroid_02
+    Info_15:
+      Name: entities/asteroid03
+      Dependencies:
+        Dependency_0: materials/prop_asteroid_03_mat
+        Dependency_1: meshes/prop_asteroid_03
+    Info_16:
+      Name: entities/asteroidexplosion
+      Dependencies:
+        Dependency_0: materials/part_glow_mat
+        Dependency_1: materials/part_shockwave_mat
+        Dependency_2: materials/part_spark_large_mat
+        Dependency_3: materials/part_spark_white_mat
+    Info_17:
+      Name: entities/defaultarmor
+      Dependencies: {}
+    Info_18:
+      Name: entities/defaultweapon
+      Dependencies: {}
+    Info_19:
+      Name: entities/enemybolt
+      Dependencies:
+        Dependency_0: materials/done_fx_bolt_cyan_mat
+    Info_20:
+      Name: entities/enemyengine
+      Dependencies:
+        Dependency_0: materials/fx_enemyship_engines_mat
+    Info_21:
+      Name: entities/enemyexplosion
+      Dependencies:
+        Dependency_0: materials/part_blast_mat
+        Dependency_1: materials/part_shockwave_mat
+        Dependency_2: materials/part_spark_blue_mat
+        Dependency_3: materials/part_spark_large_mat
+    Info_22:
+      Name: entities/enemyship
+      Dependencies:
+        Dependency_0: materials/vehicle_enemyship_glow_mat
+        Dependency_1: materials/vehicle_enemyship_metal_mat
+        Dependency_2: meshes/vehicle_enemyship
+    Info_23:
+      Name: entities/playerbolt
+      Dependencies:
+        Dependency_0: materials/done_fx_bolt_orange_mat
+    Info_24:
+      Name: entities/playerengine
+      Dependencies:
+        Dependency_0: materials/part_jet_core_mat
+        Dependency_1: materials/part_jet_flare_mat
+    Info_25:
+      Name: entities/playerexplosion
+      Dependencies:
+        Dependency_0: materials/part_blast_mat
+        Dependency_1: materials/part_shockwave_mat
+        Dependency_2: materials/part_spark_large_mat
+        Dependency_3: materials/part_spark_white_mat
+        Dependency_4: materials/part_spark_yellow_mat
+    Info_26:
+      Name: entities/playership
+      Dependencies:
+        Dependency_0: materials/vehicle_playership_glass_mat
+        Dependency_1: materials/vehicle_playership_metal_mat
+        Dependency_2: meshes/vehicle_playership
+        Dependency_3: meshes/vehicle_playership_collider
+    Info_27:
+      Name: fonts/mainfont
+      Dependencies: {}
+    Info_28:
+      Name: localization/chinesesimplified/dictionaries/default
+      Dependencies: {}
+    Info_29:
+      Name: localization/chinesetraditional/dictionaries/default
+      Dependencies: {}
+    Info_30:
+      Name: localization/english/dictionaries/default
+      Dependencies: {}
+    Info_31:
+      Name: localization/korean/dictionaries/default
+      Dependencies: {}
+    Info_32:
+      Name: materials/done_fx_bolt_cyan_mat
+      Dependencies:
+        Dependency_0: textures/fx_lazer_cyan_dff
+    Info_33:
+      Name: materials/done_fx_bolt_orange_mat
+      Dependencies:
+        Dependency_0: textures/fx_lazer_orange_dff
+    Info_34:
+      Name: materials/done_tile_nebula_green_dff
+      Dependencies:
+        Dependency_0: textures/tile_nebula_green_dff
+    Info_35:
+      Name: materials/fx_enemyship_engines_mat
+      Dependencies:
+        Dependency_0: textures/part_enginepulse_dff
+    Info_36:
+      Name: materials/part_blast_mat
+      Dependencies:
+        Dependency_0: textures/part_flash_dff
+    Info_37:
+      Name: materials/part_glow_mat
+      Dependencies: {}
+    Info_38:
+      Name: materials/part_jet_core_mat
+      Dependencies:
+        Dependency_0: textures/part_jet_core_dff
+    Info_39:
+      Name: materials/part_jet_flare_mat
+      Dependencies:
+        Dependency_0: textures/part_jet_flare_dff
+    Info_40:
+      Name: materials/part_shockwave_mat
+      Dependencies:
+        Dependency_0: textures/part_shockwave_dff
+    Info_41:
+      Name: materials/part_spark_blue_mat
+      Dependencies:
+        Dependency_0: textures/part_spark_small_dff
+    Info_42:
+      Name: materials/part_spark_large_mat
+      Dependencies:
+        Dependency_0: textures/part_spark_large_dff
+    Info_43:
+      Name: materials/part_spark_white_mat
+      Dependencies:
+        Dependency_0: textures/part_spark_small_dff
+    Info_44:
+      Name: materials/part_spark_yellow_mat
+      Dependencies:
+        Dependency_0: textures/part_spark_small_dff
+    Info_45:
+      Name: materials/part_star_mat
+      Dependencies:
+        Dependency_0: textures/part_star_dff
+    Info_46:
+      Name: materials/prop_asteroid_01_mat
+      Dependencies:
+        Dependency_0: textures/prop_asteroid_01_dff
+        Dependency_1: textures/prop_asteroid_01_nrm
+    Info_47:
+      Name: materials/prop_asteroid_02_mat
+      Dependencies:
+        Dependency_0: textures/prop_asteroid_02_dff
+        Dependency_1: textures/prop_asteroid_02_nrm
+    Info_48:
+      Name: materials/prop_asteroid_03_mat
+      Dependencies:
+        Dependency_0: textures/prop_asteroid_03_dff
+        Dependency_1: textures/prop_asteroid_03_nrm
+    Info_49:
+      Name: materials/vehicle_enemyship_glow_mat
+      Dependencies:
+        Dependency_0: textures/vehicle_enemyship_purple_dff
+    Info_50:
+      Name: materials/vehicle_enemyship_metal_mat
+      Dependencies:
+        Dependency_0: textures/vehicle_enemyship_nrm
+        Dependency_1: textures/vehicle_enemyship_purple_dff
+    Info_51:
+      Name: materials/vehicle_playership_glass_mat
+      Dependencies:
+        Dependency_0: textures/vehicle_playership_orange_dff
+        Dependency_1: textures/vehicle_playership_orange_nrm
+    Info_52:
+      Name: materials/vehicle_playership_metal_mat
+      Dependencies:
+        Dependency_0: textures/vehicle_playership_orange_dff
+        Dependency_1: textures/vehicle_playership_orange_nrm
+    Info_53:
+      Name: meshes/prop_asteroid_01
+      Dependencies: {}
+    Info_54:
+      Name: meshes/prop_asteroid_02
+      Dependencies: {}
+    Info_55:
+      Name: meshes/prop_asteroid_03
+      Dependencies: {}
+    Info_56:
+      Name: meshes/vehicle_enemyship
+      Dependencies: {}
+    Info_57:
+      Name: meshes/vehicle_playership
+      Dependencies: {}
+    Info_58:
+      Name: meshes/vehicle_playership_collider
+      Dependencies: {}
+    Info_59:
+      Name: music/music_about
+      Dependencies: {}
+    Info_60:
+      Name: music/music_background
+      Dependencies: {}
+    Info_61:
+      Name: music/music_menu
+      Dependencies: {}
+    Info_62:
+      Name: scenes/main
+      Dependencies:
+        Dependency_0: materials/done_tile_nebula_green_dff
+        Dependency_1: materials/part_star_mat
+    Info_63:
+      Name: scenes/menu
+      Dependencies:
+        Dependency_0: materials/done_tile_nebula_green_dff
+        Dependency_1: materials/part_star_mat
+    Info_64:
+      Name: sound/test_song
+      Dependencies: {}
+    Info_65:
+      Name: sounds/explosion_asteroid
+      Dependencies: {}
+    Info_66:
+      Name: sounds/explosion_enemy
+      Dependencies: {}
+    Info_67:
+      Name: sounds/explosion_player
+      Dependencies: {}
+    Info_68:
+      Name: sounds/weapon_enemy
+      Dependencies: {}
+    Info_69:
+      Name: sounds/weapon_player
+      Dependencies: {}
+    Info_70:
+      Name: test/prefab/cube
+      Dependencies: {}
+    Info_71:
+      Name: test/prefab/sphere
+      Dependencies: {}
+    Info_72:
+      Name: textures/fx_lazer_cyan_dff
+      Dependencies: {}
+    Info_73:
+      Name: textures/fx_lazer_orange_dff
+      Dependencies: {}
+    Info_74:
+      Name: textures/part_enginepulse_dff
+      Dependencies: {}
+    Info_75:
+      Name: textures/part_flash_dff
+      Dependencies: {}
+    Info_76:
+      Name: textures/part_jet_core_dff
+      Dependencies: {}
+    Info_77:
+      Name: textures/part_jet_flare_dff
+      Dependencies: {}
+    Info_78:
+      Name: textures/part_shockwave_dff
+      Dependencies: {}
+    Info_79:
+      Name: textures/part_spark_large_dff
+      Dependencies: {}
+    Info_80:
+      Name: textures/part_spark_small_dff
+      Dependencies: {}
+    Info_81:
+      Name: textures/part_star_dff
+      Dependencies: {}
+    Info_82:
+      Name: textures/prop_asteroid_01_dff
+      Dependencies: {}
+    Info_83:
+      Name: textures/prop_asteroid_01_nrm
+      Dependencies: {}
+    Info_84:
+      Name: textures/prop_asteroid_02_dff
+      Dependencies: {}
+    Info_85:
+      Name: textures/prop_asteroid_02_nrm
+      Dependencies: {}
+    Info_86:
+      Name: textures/prop_asteroid_03_dff
+      Dependencies: {}
+    Info_87:
+      Name: textures/prop_asteroid_03_nrm
+      Dependencies: {}
+    Info_88:
+      Name: textures/tile_nebula_green_dff
+      Dependencies: {}
+    Info_89:
+      Name: textures/vehicle_enemyship_nrm
+      Dependencies: {}
+    Info_90:
+      Name: textures/vehicle_enemyship_purple_dff
+      Dependencies: {}
+    Info_91:
+      Name: textures/vehicle_playership_orange_dff
+      Dependencies: {}
+    Info_92:
+      Name: textures/vehicle_playership_orange_nrm
+      Dependencies: {}
+    Info_93:
+      Name: ui/uiforms/aboutform
+      Dependencies:
+        Dependency_0: ui/uisprites/logos/unity-logo
+    Info_94:
+      Name: ui/uiforms/dialogform
+      Dependencies:
+        Dependency_0: ui/uisprites/common/background
+        Dependency_1: ui/uisprites/common/button-outline
+        Dependency_2: ui/uisprites/common/dialog-background
+        Dependency_3: ui/uisprites/common/dialog-title-background
+    Info_95:
+      Name: ui/uiforms/menuform
+      Dependencies:
+        Dependency_0: ui/uisprites/common/button-outline
+    Info_96:
+      Name: ui/uiforms/settingform
+      Dependencies:
+        Dependency_0: ui/uisprites/common/background
+        Dependency_1: ui/uisprites/common/box
+        Dependency_2: ui/uisprites/common/button-outline
+        Dependency_3: ui/uisprites/common/checked
+        Dependency_4: ui/uisprites/common/circle
+        Dependency_5: ui/uisprites/common/dialog-background
+        Dependency_6: ui/uisprites/common/dialog-title-background
+        Dependency_7: ui/uisprites/common/info
+        Dependency_8: ui/uisprites/common/line
+        Dependency_9: ui/uisprites/common/progress-conner
+        Dependency_10: ui/uisprites/common/progressbar
+        Dependency_11: ui/uisprites/common/progressbar-background
+        Dependency_12: ui/uisprites/icons/music
+        Dependency_13: ui/uisprites/icons/sound
+        Dependency_14: ui/uisprites/icons/world
+    Info_97:
+      Name: ui/uisounds/click
+      Dependencies: {}
+    Info_98:
+      Name: ui/uisounds/select
+      Dependencies: {}
+    Info_99:
+      Name: ui/uisprites/common/background
+      Dependencies: {}
+    Info_100:
+      Name: ui/uisprites/common/box
+      Dependencies: {}
+    Info_101:
+      Name: ui/uisprites/common/button-filled
+      Dependencies: {}
+    Info_102:
+      Name: ui/uisprites/common/button-outline
+      Dependencies: {}
+    Info_103:
+      Name: ui/uisprites/common/checked
+      Dependencies: {}
+    Info_104:
+      Name: ui/uisprites/common/circle
+      Dependencies: {}
+    Info_105:
+      Name: ui/uisprites/common/circle-filled
+      Dependencies: {}
+    Info_106:
+      Name: ui/uisprites/common/circle-outline
+      Dependencies: {}
+    Info_107:
+      Name: ui/uisprites/common/dialog-background
+      Dependencies: {}
+    Info_108:
+      Name: ui/uisprites/common/dialog-title-background
+      Dependencies: {}
+    Info_109:
+      Name: ui/uisprites/common/info
+      Dependencies: {}
+    Info_110:
+      Name: ui/uisprites/common/line
+      Dependencies: {}
+    Info_111:
+      Name: ui/uisprites/common/progress-conner
+      Dependencies: {}
+    Info_112:
+      Name: ui/uisprites/common/progressbar
+      Dependencies: {}
+    Info_113:
+      Name: ui/uisprites/common/progressbar-background
+      Dependencies: {}
+    Info_114:
+      Name: ui/uisprites/common/round-button-filled
+      Dependencies: {}
+    Info_115:
+      Name: ui/uisprites/common/round-button-outline
+      Dependencies: {}
+    Info_116:
+      Name: ui/uisprites/icons/music
+      Dependencies: {}
+    Info_117:
+      Name: ui/uisprites/icons/sound
+      Dependencies: {}
+    Info_118:
+      Name: ui/uisprites/icons/world
+      Dependencies: {}
+    Info_119:
+      Name: ui/uisprites/logos/unity-logo
+      Dependencies: {}

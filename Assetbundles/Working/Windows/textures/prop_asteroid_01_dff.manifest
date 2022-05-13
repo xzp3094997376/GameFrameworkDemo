@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2781618783
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e6c2a0ca8677fa7faa363ba46b3fe3f7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Textures/prop_asteroid_01_dff.tif
+Dependencies: []

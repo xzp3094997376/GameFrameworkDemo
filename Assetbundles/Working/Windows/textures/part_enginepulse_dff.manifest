@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4202688867
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3981e2e3280e8a87499830eb2d82e26a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Textures/part_enginePulse_dff.tif
+Dependencies: []

@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 653476849
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bc2eaaad49574cad5fec8c1108e16932
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Textures/part_spark_small_dff.tif
+Dependencies: []

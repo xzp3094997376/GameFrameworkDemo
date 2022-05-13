@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 2245924714
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 29d4a7abdee8b2a24830d3c0d1a5b331
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Textures/vehicle_playerShip_orange_dff.tif
+Dependencies: []

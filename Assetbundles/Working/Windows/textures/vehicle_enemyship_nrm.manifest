@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 1180268091
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4375d066b6304a5ddb9a86b50ff4f265
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Textures/vehicle_enemyShip_nrm.tif
+Dependencies: []

@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 3249819426
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b3a2732a98b5f81118cb84223b431afa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Textures/part_jet_core_dff.tif
+Dependencies: []

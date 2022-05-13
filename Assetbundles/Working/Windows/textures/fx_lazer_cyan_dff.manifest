@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 762982788
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 270f4dd546e226e676b505a52bdfd591
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Textures/fx_lazer_cyan_dff.tif
+Dependencies: []

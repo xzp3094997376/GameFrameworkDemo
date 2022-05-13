@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2813621833
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b1a16aecd245e07e6b3e48b874c03956
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22357172b8cea85847937e8f62d0c077
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Materials/vehicle_playerShip_glass_mat.mat
+Dependencies:
+- F:/UnityProject/GameFramework/StarForce/Assetbundles/Working/Windows/textures/vehicle_playership_orange_dff
+- F:/UnityProject/GameFramework/StarForce/Assetbundles/Working/Windows/textures/vehicle_playership_orange_nrm

@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 2543296775
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d2b8f50228abb83d0367f3d262cd6894
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c90fc19e2679e5295d10bd00f33cb4c3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/UI/UISprites/Common/circle-outline.png
+Dependencies: []

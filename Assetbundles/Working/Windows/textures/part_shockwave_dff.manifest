@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 973908050
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b2483cb807bf8ca0acdf747504c4186a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7859cd501ea75098bcf7e53f1b477c26
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Textures/part_shockwave_dff.tif
+Dependencies: []

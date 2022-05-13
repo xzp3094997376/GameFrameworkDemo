@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 2595101187
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c61a9621bfb7e70f62fb40fdb6a99079
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22357172b8cea85847937e8f62d0c077
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameMain/Materials/prop_asteroid_02_mat.mat
+Dependencies:
+- F:/UnityProject/GameFramework/StarForce/Assetbundles/Working/Windows/textures/prop_asteroid_02_dff
+- F:/UnityProject/GameFramework/StarForce/Assetbundles/Working/Windows/textures/prop_asteroid_02_nrm
