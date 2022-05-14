@@ -49,6 +49,7 @@
       <Resource Name="Materials/part_spark_white_mat" LoadType="0" Packed="False" />
       <Resource Name="Materials/part_spark_yellow_mat" LoadType="0" Packed="False" />
       <Resource Name="Materials/part_star_mat" LoadType="0" Packed="False" />
+      <Resource Name="Materials/part_test_mat" LoadType="0" Packed="False" />
       <Resource Name="Materials/prop_asteroid_01_mat" LoadType="0" Packed="False" />
       <Resource Name="Materials/prop_asteroid_02_mat" LoadType="0" Packed="False" />
       <Resource Name="Materials/prop_asteroid_03_mat" LoadType="0" Packed="False" />
@@ -231,6 +232,7 @@
       <Asset Guid="ab4774faf71b57a40a29a9e902403fe3" ResourceName="DataTables/Weapon" />
       <Asset Guid="abd1565e9e268f04cac3631d022b4ace" ResourceName="Entities/DefaultWeapon" />
       <Asset Guid="ad56aae2bb0f2ce4a86711287e14e223" ResourceName="DataTables/Asteroid" />
+      <Asset Guid="ae1c98f7d0a96ab4b9eeb917dcaa28f2" ResourceName="Materials/part_test_mat" />
       <Asset Guid="ae6a7f967521769458b0913fa39caaf4" ResourceName="Textures/prop_asteroid_01_dff" />
       <Asset Guid="afc18fc39ade3744397c0c993b57be53" ResourceName="Entities/EnemyShip" />
       <Asset Guid="b031b4f2980561542a7f7ba41391edc3" ResourceName="Scenes/Menu" />

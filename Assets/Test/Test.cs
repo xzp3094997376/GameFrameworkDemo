@@ -1,8 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using GameFramework;
 using GameFramework.DataTable;
+using GameFramework.Resource;
 using StarForce;
 using UnityEngine;
+using UnityGameFramework.Runtime;
+using Entity = StarForce.Entity;
+using GameEntry = StarForce.GameEntry;
 
 public class Test : MonoBehaviour
 {
@@ -32,6 +37,10 @@ public class Test : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.U))
         {
             LoadUI();
+        }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            LoadAsset();
         }
     }
 
@@ -70,5 +79,26 @@ public class Test : MonoBehaviour
     void LoadUI()
     {
         GameEntry.UI.OpenUIForm(UIFormId.TestUIForm, this);
+    }
+
+    /// <summary>
+    /// 加载普通资源
+    /// </summary>
+    void LoadAsset()
+    {
+        string matAsset = "part_test_mat";
+        GameEntry.Resource.LoadAsset(AssetUtility.GetMaterialAsset(matAsset), Constant.AssetPriority.FontAsset, new LoadAssetCallbacks(
+            (assetName, asset, duration, userData) =>
+            {
+                //m_LoadedFlag[Utility.Text.Format("Font.{0}", fontName)] = true;
+                //UGuiForm.SetMainFont((Font)asset);
+                GameEntry.Entity.GetEntity(-6).gameObject.GetComponent<MeshRenderer>().material=(Material)asset;
+                Log.Info("Load material '{0}' OK.", matAsset);
+            },
+
+            (assetName, status, errorMessage, userData) =>
+            {
+                Log.Error("Can not load font '{0}' from '{1}' with error message '{2}'.", matAsset, assetName, errorMessage);
+            }));
     }
 }

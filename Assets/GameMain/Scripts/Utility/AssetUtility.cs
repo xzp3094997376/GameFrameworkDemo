@@ -66,5 +66,14 @@ namespace StarForce
         {
             return Utility.Text.Format("Assets/GameMain/Test/Prefab/{0}.prefab", assetName);
         }
+
+        /// <summary>
+        /// 获取材质资源
+        /// </summary>
+        /// <returns></returns>
+        public static string GetMaterialAsset(string assetName)
+        {
+            return Utility.Text.Format("Assets/GameMain/Materials/{0}.mat", assetName);
+        }
     }
 }
