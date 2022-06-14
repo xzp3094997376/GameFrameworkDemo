@@ -112,9 +112,9 @@ namespace UnityGameFramework.Runtime
             if (m_EnableLoadDictionaryDependencyAssetEvent)
             {
                 m_LocalizationManager.ReadDataDependencyAsset += OnReadDataDependencyAsset;
-            }
+            }   
         }
-
+            
         private void Start()
         {
             BaseComponent baseComponent = GameEntry.GetComponent<BaseComponent>();

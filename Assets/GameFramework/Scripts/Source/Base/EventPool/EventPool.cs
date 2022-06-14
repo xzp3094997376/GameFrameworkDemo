@@ -228,7 +228,7 @@ namespace GameFramework
                 m_Events.Enqueue(eventNode);
             }
         }
-
+        
         /// <summary>
         /// 抛出事件立即模式，这个操作不是线程安全的，事件会立刻分发。
         /// </summary>

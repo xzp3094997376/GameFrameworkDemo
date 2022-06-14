@@ -198,7 +198,6 @@ namespace GameFramework.ObjectPool
                 Object<T> internalObject = Object<T>.Create(obj, spawned);
                 m_Objects.Add(obj.Name, internalObject);
                 m_ObjectMap.Add(obj.Target, internalObject);
-
                 if (Count > m_Capacity)
                 {
                     Release();

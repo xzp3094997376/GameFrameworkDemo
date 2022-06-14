@@ -1225,3 +1225,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2be708db4a1d8574a81be0058e63192b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_HPBarItemTemplate: {fileID: 8613266762067486550, guid: 36086dce90fc365499e5d614e3a32098,
+    type: 3}
