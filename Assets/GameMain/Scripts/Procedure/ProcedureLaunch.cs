@@ -114,7 +114,6 @@ namespace StarForce
                 case Language.Korean:
                     currentVariant = "ko-kr";
                     break;
-
                 default:
                     currentVariant = "zh-cn";
                     break;

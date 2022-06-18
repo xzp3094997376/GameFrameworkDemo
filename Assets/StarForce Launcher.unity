@@ -1227,3 +1227,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HPBarItemTemplate: {fileID: 8613266762067486550, guid: 36086dce90fc365499e5d614e3a32098,
     type: 3}
+  str: This method overrides Read. The offset argument (buffer index) provides the
+    offset of the byte array, and the count argument provides the maximum number
+    of bytes to read from this stream. The value returned is the actual number of
+    bytes read, or zero if the end of the stream is reached. If the read operation
+    succeeds, the current position of the stream is advanced by the number of bytes
+    read. If an exception occurs, the current position of the flow remains the same.
+    The method Read returns zero only after the end of the stream is reached. Otherwise,
+    Read always reads at least one byte from the stream before returning. If there
+    is no data available in the stream when Read is called, this method blocks until
+    at least one byte of data can be returned. Even if the end of the stream has
+    not been reached, the implementation can return fewer bytes than requested. Used
+    for BinaryReader to read base metadata types. Do not interrupt a thread that
+    is performing a read operation. Although the application may run successfully
+    after the thread is unblocked, interrupts can degrade the performance and reliability
+    of the application. For a list of common file and directory operations, see Common
+    I/O Tasks.

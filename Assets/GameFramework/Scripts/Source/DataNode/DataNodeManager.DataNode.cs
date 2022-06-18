@@ -42,7 +42,7 @@ namespace GameFramework.DataNode
                 if (!IsValidName(name))
                 {
                     throw new GameFrameworkException("Name of data node is invalid.");
-                }
+                }   
 
                 DataNode node = ReferencePool.Acquire<DataNode>();
                 node.m_Name = name;

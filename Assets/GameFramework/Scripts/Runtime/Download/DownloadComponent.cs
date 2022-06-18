@@ -233,7 +233,7 @@ namespace UnityGameFramework.Runtime
         public void GetAllDownloadInfos(List<TaskInfo> results)
         {
             m_DownloadManager.GetAllDownloadInfos(results);
-        }
+        }   
 
         /// <summary>
         /// 增加下载任务。
