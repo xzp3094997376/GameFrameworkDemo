@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using GameFramework.Fsm;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityGameFramework.Runtime;
@@ -65,7 +66,9 @@ public class Test : MonoBehaviour
 
         //TestDataNode();
 
-        TestDataTable();
+        //TestDataTable();
+
+        TestFsm();
     }
 
     #region Entity
@@ -501,19 +504,25 @@ public class Test : MonoBehaviour
     }
     #endregion
 
-    #region 状态机
+    #region 状态机 -切换状态
     //流程（Fsm：状态机）-流程基类（state:状态）
+   
     void TestFsm()
     {
-
+        if (Input.GetKeyDown(KeyCode.C))//创建
+        {
+            CreateFsm();
+        }
+       
     }
 
-    /// <summary>
-    /// 状态机测试
-    /// </summary>
-    void FsmTest()
+    private IFsm<ActorOwner> actorFsm;
+    void CreateFsm()
     {
-
+        ActorOwner actorOwner = new ActorOwner();
+        actorFsm = GameEntry.Fsm.CreateFsm("Fsm", actorOwner, new IdleState(), new MoveState());
+        actorFsm.Start<IdleState>();
     }
+     
     #endregion
 }
