@@ -8,8 +8,11 @@ using StarForce;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Net;
 using System.Text;
+using GameFramework;
 using GameFramework.Fsm;
+using GameFramework.Network;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityGameFramework.Runtime;
@@ -68,7 +71,9 @@ public class Test : MonoBehaviour
 
         //TestDataTable();
 
-        TestFsm();
+        //TestFsm();
+
+        TestSocket();
     }
 
     #region Entity
@@ -503,7 +508,7 @@ public class Test : MonoBehaviour
         Log.Debug(drMinRow.AssetName + ", " + drMinRow.Id + ",    " + drMinRow.BackgroundMusicId);
     }
     #endregion
-
+    
     #region 状态机 -切换状态
     //流程（Fsm：状态机）-流程基类（state:状态）
    
@@ -523,6 +528,58 @@ public class Test : MonoBehaviour
         actorFsm = GameEntry.Fsm.CreateFsm("Fsm", actorOwner, new IdleState(), new MoveState());
         actorFsm.Start<IdleState>();
     }
-     
+
+    #endregion
+
+    #region 网络-socket
+
+    void TestSocket()
+    {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            SocketConnect();
+        }
+        else if (Input.GetKeyDown(KeyCode.S))
+        {   
+            SendPacket();
+        }
+        else if (Input.GetKeyDown(KeyCode.R))
+        {
+            ReceivePacket();
+        }
+    }
+
+    private INetworkChannel iNetworkChannel;
+    private CSHeartBeat csHeartBeat = new CSHeartBeat();
+    void SocketConnect()
+    {
+        NetworkChannelHelper helper=new NetworkChannelHelper();
+        iNetworkChannel= GameEntry.Network.CreateNetworkChannel("Test", ServiceType.TcpWithSyncReceive, helper);
+        iNetworkChannel.Connect(new IPAddress(new byte[]{127,0,0,1 }), 21);
+        iNetworkChannel.Send(csHeartBeat);
+    }
+        
+    /// <summary>
+    /// 发送数据
+    /// </summary>
+    void SendPacket()
+    {
+        iNetworkChannel.Send(csHeartBeat);
+    }
+
+    /// <summary>
+    /// 接受消息包
+    /// </summary>
+    void ReceivePacket()
+    {
+        GameEntry.Event.Subscribe(1, OnNetworkReceived);
+        Log.Debug("消息包数量: " + iNetworkChannel.ReceivedPacketCount);
+    }
+    private void OnNetworkReceived(object sender, BaseEventArgs e)
+    {
+        CSHeartBeat ne = (CSHeartBeat)e;
+        Log.Debug("日志 "+ne.Id);
+    }
+
     #endregion
 }
