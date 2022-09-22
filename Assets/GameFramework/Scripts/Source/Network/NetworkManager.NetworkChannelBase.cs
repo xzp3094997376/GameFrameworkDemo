@@ -120,7 +120,7 @@ namespace GameFramework.Network
             {
                 get;
             }
-
+                
             /// <summary>
             /// 获取网络地址类型。
             /// </summary>
@@ -389,7 +389,7 @@ namespace GameFramework.Network
                         m_Socket = null;
 
                         if (NetworkChannelClosed != null)
-                        {
+                        {   
                             NetworkChannelClosed(this);
                         }
                     }
@@ -625,10 +625,8 @@ namespace GameFramework.Network
                         NetworkChannelError(this, NetworkErrorCode.DeserializePacketError, socketException != null ? socketException.SocketErrorCode : SocketError.Success, exception.ToString());
                         return false;
                     }
-
                     throw;
                 }
-
                 return true;
             }
         }

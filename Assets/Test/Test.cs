@@ -558,7 +558,6 @@ public class Test : MonoBehaviour
         iNetworkChannel.Connect(new IPAddress(new byte[]{127,0,0,1 }), 21);
         iNetworkChannel.Send(csHeartBeat);
     }
-        
     /// <summary>
     /// 发送数据
     /// </summary>
