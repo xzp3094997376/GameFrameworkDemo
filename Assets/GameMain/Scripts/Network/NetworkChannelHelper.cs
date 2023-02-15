@@ -31,7 +31,7 @@ namespace StarForce
         {
             get
             {
-                return sizeof(int);
+                return /*sizeof(int)*/8;
             }
         }
 
@@ -136,23 +136,23 @@ namespace StarForce
                 return false;
             }
 
-            m_CachedStream.SetLength(m_CachedStream.Capacity); // 此行防止 Array.Copy 的数据无法写入
-            m_CachedStream.Position = 8L;
+            //destination.SetLength(destination.Length); // 此行防止 Array.Copy 的数据无法写入
+            destination.Position = 8L;
 
-            Serializer.SerializeWithLengthPrefix(m_CachedStream, packet, PrefixStyle.Fixed32);
+            Serializer.SerializeWithLengthPrefix(destination, packet, PrefixStyle.Fixed32);
            
 
             CSPacketHeader packetHeader = ReferencePool.Acquire<CSPacketHeader>();
             packetHeader.Id = packet.Id;
-            packetHeader.PacketLength = (int) m_CachedStream.Length - 8;
-            m_CachedStream.Position = 0;
-            Serializer.SerializeWithLengthPrefix(m_CachedStream, packetHeader, PrefixStyle.Fixed32);
+            packetHeader.PacketLength = (int) destination.Length - 8;
+            destination.Position = 0;
+            Serializer.SerializeWithLengthPrefix(destination, packetHeader, PrefixStyle.Fixed32);
 
             ReferencePool.Release(packetHeader);
-            ReferencePool.Release((IReference)packet);
+            //ReferencePool.Release((IReference)packet);
 
 
-            m_CachedStream.WriteTo(destination);
+            //m_CachedStream.WriteTo(destination);
             return true;
         }
 

@@ -14,14 +14,14 @@ namespace StarForce
     public sealed class SCPacketHeader : PacketHeaderBase
     {
         [ProtoMember(1)]
-        public new int Id
+        public override int Id
         {
             get;
             set;
         }
 
         [ProtoMember(2)]
-        public new int PacketLength
+        public override int PacketLength
         {
             get;
             set;

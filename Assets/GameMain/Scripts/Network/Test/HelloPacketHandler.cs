@@ -12,9 +12,7 @@ public class HelloPacketHandler : PacketHandlerBase
 
         get
         {
-
             return 10;
-
         }
 
     }

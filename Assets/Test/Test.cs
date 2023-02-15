@@ -13,7 +13,6 @@ using System.Text;
 using GameFramework;
 using GameFramework.Fsm;
 using GameFramework.Network;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 using FileInfo = GameFramework.FileSystem.FileInfo;
@@ -550,20 +549,38 @@ public class Test : MonoBehaviour
     }
 
     private INetworkChannel iNetworkChannel;
-    private CSHeartBeat csHeartBeat = new CSHeartBeat();
+    
     void SocketConnect()
     {
+        Demo8_SocketServer.Start();
+        // 获取框架事件组件
+        EventComponent Event
+            = UnityGameFramework.Runtime.GameEntry.GetComponent<EventComponent>();
+
+        Event.Subscribe(UnityGameFramework.Runtime.NetworkConnectedEventArgs.EventId, OnConnected);
+
         NetworkChannelHelper helper=new NetworkChannelHelper();
         iNetworkChannel= GameEntry.Network.CreateNetworkChannel("Test", ServiceType.TcpWithSyncReceive, helper);
-        iNetworkChannel.Connect(new IPAddress(new byte[]{127,0,0,1 }), 21);
-        iNetworkChannel.Send(csHeartBeat);
+        iNetworkChannel.Connect(new IPAddress(new byte[]{127,0,0,1 }), 8098);
+    }
+
+
+    private void OnConnected(object sender, GameEventArgs e)
+    {
+        UnityGameFramework.Runtime.NetworkConnectedEventArgs ne = (UnityGameFramework.Runtime.NetworkConnectedEventArgs)e;
+
+        // 发送消息给服务端
+        iNetworkChannel.Send(new CSHello()
+        {
+            Name = "服务器你好吗？",
+        });
     }
     /// <summary>
     /// 发送数据
     /// </summary>
     void SendPacket()
     {
-        iNetworkChannel.Send(csHeartBeat);
+        //iNetworkChannel.Send(csHeartBeat);
     }
 
     /// <summary>

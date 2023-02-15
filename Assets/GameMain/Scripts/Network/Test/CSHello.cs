@@ -9,7 +9,7 @@ public class CSHello : CSPacketBase
     {
         get
         {
-            return 10;
+            return 5;
         }
     }
 
