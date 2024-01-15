@@ -1,0 +1,13 @@
+syntax = "proto3";
+package PB;
+//进入模式
+message MySecondProto{  
+  string name=1;//值代表cs 脚本中的tag
+  int32 plotId=2;
+  int32 page_number = 3;
+  int32 results_per_page = 4;
+}
+  
+ 
+
+

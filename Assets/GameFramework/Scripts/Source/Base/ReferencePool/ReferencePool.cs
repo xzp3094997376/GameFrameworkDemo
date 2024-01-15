@@ -112,7 +112,6 @@ namespace GameFramework
             {
                 throw new GameFrameworkException("Reference is invalid.");
             }
-
             Type referenceType = reference.GetType();
             InternalCheckReferenceType(referenceType);
             GetReferenceCollection(referenceType).Release(reference);
