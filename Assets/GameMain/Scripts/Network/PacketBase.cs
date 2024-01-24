@@ -10,7 +10,7 @@ using ProtoBuf;
 
 namespace StarForce
 {
-    public abstract class PacketBase : Packet, IExtensible
+    public abstract class PacketBase : Packet/*, IExtensible*/
     {
         private IExtension m_ExtensionObject;
 
@@ -24,9 +24,9 @@ namespace StarForce
             get;
         }
 
-        IExtension IExtensible.GetExtensionObject(bool createIfMissing)
+        /*IExtension IExtensible.GetExtensionObject(bool createIfMissing)
         {
             return Extensible.GetExtensionObject(ref m_ExtensionObject, createIfMissing);
-        }
+        }*/
     }
 }

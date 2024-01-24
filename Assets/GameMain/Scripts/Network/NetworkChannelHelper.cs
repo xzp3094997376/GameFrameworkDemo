@@ -31,7 +31,7 @@ namespace StarForce
         {
             get
             {
-                return sizeof(int);
+                return /*sizeof(int)/**/sizeof(int)+sizeof(int);
             }
         }
 
@@ -123,36 +123,44 @@ namespace StarForce
         /// <returns>是否序列化成功。</returns>
         public bool Serialize<T>(T packet, Stream destination) where T : Packet
         {
-            PacketBase packetImpl = packet as PacketBase;
-            if (packetImpl == null)
-            {
-                Log.Warning("Packet is invalid.");
-                return false;
-            }
+             
+             PacketBase packetImpl = packet as PacketBase;
+             if (packetImpl == null)
+             {
+                 Log.Warning("Packet is invalid.");
+                 return false;
+             }
 
-            if (packetImpl.PacketType != PacketType.ClientToServer)
-            {
-                Log.Warning("Send packet invalid.");
-                return false;
-            }
+             if (packetImpl.PacketType != PacketType.ClientToServer)
+             {
+                 Log.Warning("Send packet invalid.");
+                 return false;
+             }
 
-            m_CachedStream.SetLength(m_CachedStream.Capacity); // 此行防止 Array.Copy 的数据无法写入
-            m_CachedStream.Position = 8L;
+             //使用临时缓存流写入，用来计算包头长度。否则先序列化包，在序列化包头来计算位置，反序列化时，int等数字型字段反序列化时永远等于0/原因：手动设置位置不准确
+             m_CachedStream.SetLength(m_CachedStream.Capacity); // 此行防止 Array.Copy 的数据无法写入
+             m_CachedStream.Position = 0L;
 
-            Serializer.SerializeWithLengthPrefix(m_CachedStream, packet, PrefixStyle.Fixed32);
-           
+             CSPacketHeader _packetHeader = ReferencePool.Acquire<CSPacketHeader>();
+             Serializer.Serialize(m_CachedStream, _packetHeader);
+             ReferencePool.Release(_packetHeader);
 
-            CSPacketHeader packetHeader = ReferencePool.Acquire<CSPacketHeader>();
-            packetHeader.Id = packet.Id;
-            packetHeader.PacketLength = (int) m_CachedStream.Length - 8;
-            m_CachedStream.Position = 0;
-            Serializer.SerializeWithLengthPrefix(m_CachedStream, packetHeader, PrefixStyle.Fixed32);
+             Serializer.SerializeWithLengthPrefix(m_CachedStream, packet, PrefixStyle.Fixed32);
+             //ReferencePool.Release((IReference)packet);/不能释放，下面会用到
 
-            ReferencePool.Release(packetHeader);
-            ReferencePool.Release((IReference)packet);
+             ///包头
+             destination.Position = 0L;
+             CSPacketHeader packetHeader = ReferencePool.Acquire<CSPacketHeader>();
+             packetHeader.Id = packet.Id;
+             packetHeader.PacketLength = (int)(m_CachedStream.Length -PacketHeaderLength);
+             Serializer.SerializeWithLengthPrefix(destination, packetHeader, PrefixStyle.Fixed32);
+             ReferencePool.Release(packetHeader);
+             
+             Serializer.SerializeWithLengthPrefix(destination, packet, PrefixStyle.Fixed32);
+             ReferencePool.Release((IReference)packet);
 
 
-            m_CachedStream.WriteTo(destination);
+             // m_CachedStream.WriteTo(destination);
             return true;
         }
 
@@ -167,7 +175,7 @@ namespace StarForce
             // 注意：此函数并不在主线程调用！
             customErrorData = null;
             return Serializer.DeserializeWithLengthPrefix<SCPacketHeader>(source, PrefixStyle.Fixed32);
-            // return (IPacketHeader)RuntimeTypeModel.Default.Deserialize(source, ReferencePool.Acquire<SCPacketHeader>(), typeof(SCPacketHeader));
+            //return (IPacketHeader)RuntimeTypeModel.Default.Deserialize(source, ReferencePool.Acquire<SCPacketHeader>(), typeof(SCPacketHeader));
         }
 
         /// <summary>
