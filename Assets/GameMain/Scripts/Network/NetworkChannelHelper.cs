@@ -148,7 +148,7 @@ namespace StarForce
              Serializer.SerializeWithLengthPrefix(m_CachedStream, packet, PrefixStyle.Fixed32);
              //ReferencePool.Release((IReference)packet);/不能释放，下面会用到
 
-             ///包头
+             ///包头:再次序列化，为了获取包体长度
              destination.Position = 0L;
              CSPacketHeader packetHeader = ReferencePool.Acquire<CSPacketHeader>();
              packetHeader.Id = packet.Id;
@@ -174,7 +174,7 @@ namespace StarForce
         {
             // 注意：此函数并不在主线程调用！
             customErrorData = null;
-            return Serializer.DeserializeWithLengthPrefix<SCPacketHeader>(source, PrefixStyle.Fixed32);
+            return Serializer.DeserializeWithLengthPrefix<SCPacketHeader>(source, PrefixStyle.Fixed32);//带有包头，需要使用此函数进行反序列化
             //return (IPacketHeader)RuntimeTypeModel.Default.Deserialize(source, ReferencePool.Acquire<SCPacketHeader>(), typeof(SCPacketHeader));
         }
 
