@@ -137,7 +137,7 @@ namespace StarForce
                  return false;
              }
 
-             //使用临时缓存流写入，用来计算包头长度。否则先序列化包，在序列化包头来计算位置，反序列化时，int等数字型字段反序列化时永远等于0/原因：手动设置位置不准确
+             //使用临时缓存流写入，用来计算包体长度。否则先序列化包，在序列化包头来计算位置，反序列化时，int等数字型字段反序列化时永远等于0/原因：手动设置位置不准确
              m_CachedStream.SetLength(m_CachedStream.Capacity); // 此行防止 Array.Copy 的数据无法写入
              m_CachedStream.Position = 0L;
 

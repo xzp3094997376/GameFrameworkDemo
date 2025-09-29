@@ -86,7 +86,8 @@ namespace GameFramework.Network
                 base.ProcessReceive();
                 while (m_Socket.Available > 0)
                 {
-                    if (!ReceiveSync())
+                    if (!
+                        ReceiveSync())
                     {
                         break;
                     }

@@ -20,11 +20,13 @@ using GameEntry = StarForce.GameEntry;
 
 public class Test : MonoBehaviour
 {
+    [SerializeField]
+    private int a;
     // Start is called before the first frame update
     void Start()
     {
 
-    }
+    }   
 
     // Update is called once per frame
     void Update()
